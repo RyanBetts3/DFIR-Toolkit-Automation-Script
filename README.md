@@ -33,16 +33,16 @@ The DFIR Toolkit Automation Script supports the following tools:
 - Volatility: Memory analysis framework
 - Rekall: Memory analysis framework
 - Autopsy: Digital forensics platform
-- Wireshark: Network protocol analyzer
+- Wireshark: Network protocol analyser
 - The Sleuth Kit: Collection of command-line tools for digital forensics
 
 ## Logging
 
 The script generates a log file named `dfir_toolkit_setup.log` in the same directory as the script. The log file contains information about the execution of the script, including any errors encountered during the installation process.
 
-## Customization
+## Customisation
 
-You can customize the script by modifying the following:
+You can customise the script by modifying the following:
 
 - Add or remove tools from the `tools` list in the `main()` function.
 - Modify the installation commands in the respective installation functions (`install_volatility()`, `install_rekall()`, etc.) based on your specific requirements or tool versions.
